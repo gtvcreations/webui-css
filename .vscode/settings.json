@@ -1,0 +1,44 @@
+{
+    // Editor Settings
+    
+    // The number of spaces a tab is equal to. This setting is overridden
+    // based on the file contents when `editor.detectIndentation` is true.
+    "editor.tabSize": 4,
+
+    // Insert spaces when pressing Tab. This setting is overriden
+    // based on the file contents when `editor.detectIndentation` is true.
+    "editor.insertSpaces": true,
+
+    // When opening a file, `editor.tabSize` and `editor.insertSpaces`
+    // will be detected based on the file contents. Set to false to keep
+    // the values you've explicitly set, above.
+    "editor.detectIndentation": false,
+    
+    // Live Server Settings
+    "liveServer.settings.port": 5500,
+    "liveServer.settings.donotVerifyTags": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+
+    // SASS Compiler Settings
+    "liveSassCompile.settings.formats":[
+        {
+            "format": "expanded",
+            "extensionName": ".css",
+            "savePath": "~/../"
+        }
+    ],
+    "liveSassCompile.settings.autoprefix": [
+        "> 0.3%",
+        "last 7 versions",
+        "Chrome >= 30",
+        "Firefox >= 20",
+        "ie >= 10",
+        "Safari >= 8",
+        "Android >= 4",
+        "iOS >= 7"
+    ],
+    "liveSassCompile.settings.generateMap": false,
+
+    // SCSS Formatter Settings
+    "scssFormatter.tabWidth": 4
+}

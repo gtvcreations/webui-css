@@ -1,0 +1,127 @@
+// Transform
+.capital {
+    text-transform: capitalize !important;
+}
+.uppercase {
+    text-transform: uppercase !important;
+}
+.lowercase {
+    text-transform: lowercase !important;
+}
+
+// Size
+.tiny {
+    font-size: 10px !important;
+}
+.small {
+    font-size: 12px !important;
+}
+.medium {
+    font-size: 14px !important;
+}
+.large {
+    font-size: 18px !important;
+}
+.xlarge {
+    font-size: 24px !important;
+}
+.xxlarge {
+    font-size: 36px !important;
+}
+.xxxlarge {
+    font-size: 48px !important;
+}
+.jumbo {
+    font-size: 64px !important;
+}
+
+// Family
+// Serif Fonts
+.georgia {
+    font-family: Georgia, serif !important;
+}
+.palatino {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif !important;
+}
+.times {
+    font-family: "Times New Roman", Times, serif !important;
+}
+
+// Sans-Serif Fonts
+.arial {
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+.arialblack {
+    font-family: "Arial Black", Gadget, sans-serif !important;
+}
+.comicsans {
+    font-family: "Comic Sans MS", cursive, sans-serif !important;
+}
+.impact {
+    font-family: Impact, Charcoal, sans-serif !important;
+}
+.lucidasans {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif !important;
+}
+.tahoma {
+    font-family: Tahoma, Geneva, sans-serif !important;
+}
+.trebuchet {
+    font-family: "Trebuchet MS", Helvetica, sans-serif !important;
+}
+.verdana {
+    font-family: Verdana, Geneva, sans-serif !important;
+}
+
+// Monospace Fonts
+.courier {
+    font-family: "Courier New", Courier, monospace !important;
+}
+.lucida {
+    font-family: "Lucida Console", Monaco, monospace !important;
+}
+
+// Overflow
+.overflow-hidden {
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+}
+
+// Anchor
+a[href] {
+    text-decoration: none !important;
+}
+
+// Abbrevation
+[title].abbr {
+    cursor: help;
+    text-decoration: none;
+    border-bottom: 1px dotted #777;
+}
+
+// Description List
+.desc-list dt {
+    font-weight: 700;
+}
+.desc-list dd {
+    margin-left: 2em;
+}
+
+// Mark
+.mark,
+.code,
+.kbd {
+    padding: 0.1em 0.3em;
+    border-radius: 0.3em;
+}
+// Code
+.code {
+    background: #eee;
+}
+
+// Keyboard
+.kbd {
+    color: #fff;
+    background: #555;
+}
