@@ -1,103 +1,142 @@
+// Shadow
+
 // Box Shadow
-.no-shadow {
-    box-shadow: none !important;
+// =============================================================================
+
+// Z-levels
+.z-depth-0 {
+    box-shadow: none;
 }
-.shadow {
-    box-shadow: 0 0px 1px 0 rgba(0, 0, 0, 0.25), 
-                0 0px 2px 0 rgba(0, 0, 0, 0.25) !important;
+
+// 2dp elevation modified
+.z-depth-1 {
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+                0 3px 1px -2px rgba(0, 0, 0, 0.12),
+                0 1px 5px 0 rgba(0, 0, 0, 0.2);
 }
-.shadow-tiny {
-    box-shadow: 0 0px 2px 0 rgba(0, 0, 0, 0.25), 
-                0 0px 4px 0 rgba(0, 0, 0, 0.25) !important;
+.z-depth-1-half {
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.14),
+                0 1px 7px 0 rgba(0, 0, 0, 0.12),
+                0 3px 1px -1px rgba(0, 0, 0, 0.2);
 }
-.shadow-small {
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25), 
-                0 2px 8px 0 rgba(0, 0, 0, 0.25) !important;
+
+// 6dp elevation modified
+.z-depth-2 {
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14),
+                0 1px 10px 0 rgba(0, 0, 0, 0.12),
+                0 2px 4px -1px rgba(0, 0, 0, 0.3);
 }
-.shadow-medium {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.25), 
-                0 4px 12px 0 rgba(0, 0, 0, 0.25) !important;
+
+// 12dp elevation modified
+.z-depth-3 {
+    box-shadow: 0 8px 17px 2px rgba(0, 0, 0, 0.14),
+                0 3px 14px 2px rgba(0, 0, 0, 0.12),
+                0 5px 5px -3px rgba(0, 0, 0, 0.2);
 }
-.shadow-large {
-    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.25), 
-                0 8px 24px 0 rgba(0, 0, 0, 0.25) !important;
+
+// 16dp elevation
+.z-depth-4 {
+    box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14),
+                0 6px 30px 5px rgba(0, 0, 0, 0.12),
+                0 8px 10px -7px rgba(0, 0, 0, 0.2);
 }
-.shadow-xlarge {
-    box-shadow: 0 16px 24px 0 rgba(0, 0, 0, 0.25), 
-                0 16px 32px 0 rgba(0, 0, 0, 0.25) !important;
+
+// 24dp elevation
+.z-depth-5 {
+    box-shadow: 0 24px 38px 3px rgba(0, 0, 0, 0.14),
+                0 9px 46px 8px rgba(0, 0, 0, 0.12),
+                0 11px 15px -7px rgba(0, 0, 0, 0.2);
 }
-.shadow-xxlarge {
-    box-shadow: 0 24px 32px 0 rgba(0, 0, 0, 0.25), 
-                0 24px 48px 0 rgba(0, 0, 0, 0.25) !important;
-}
-.shadow-xxxlarge {
-    box-shadow: 0 21px 48px 0 rgba(0, 0, 0, 0.25), 
-                0 21px 64px 0 rgba(0, 0, 0, 0.25) !important;
-}
-.shadow-jumbo {
-    box-shadow: 0 48px 64px 0 rgba(0, 0, 0, 0.25), 
-                0 48px 96px 0 rgba(0, 0, 0, 0.25) !important;
+
+// Text Shadow
+// =============================================================================
+
+// Text Shadow None
+.text-shadow-none {
+    text-shadow: none;
 }
 
 // Text Shadow
 .text-shadow {
-    text-shadow: 1px 1px 0 #333 !important;
+    text-shadow: 1px 1px 0 #333;
 }
+
+// Basic Shadow
 .text-basic-shadow {
-    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3) !important;
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
 }
+
+// Hard Shadow
 .text-hard-shadow {
-    text-shadow: 6px 6px 0px rgba(0, 0, 0, 0.2) !important;
+    text-shadow: 6px 6px 0px rgba(0, 0, 0, 0.2);
 }
+
+// Double Shadow
 .text-double-shadow {
-    text-shadow: 4px 3px 0px #fff, 
-                    9px 8px 0px rgba(0, 0, 0, 0.15) !important;
+    text-shadow: 4px 3px 0px #fff,
+                    9px 8px 0px rgba(0, 0, 0, 0.15);
 }
+
+// Down and Distant Shadow
 .text-downanddistant-shadow {
-    text-shadow: 0px 3px 0px #b2a98f, 
-                    0px 14px 10px rgba(0, 0, 0, 0.15), 
+    text-shadow: 0px 3px 0px #b2a98f,
+                    0px 14px 10px rgba(0, 0, 0, 0.15),
                     0px 24px 2px rgba(0, 0, 0, 0.1),
-                    0px 34px 30px rgba(0, 0, 0, 0.1) !important;
+                    0px 34px 30px rgba(0, 0, 0, 0.1);
 }
+
+// Close and Heavy Shadow
 .text-closeandheavy-shadow {
-    text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 
-                    0px 8px 13px rgba(0, 0, 0, 0.1), 
-                    0px 18px 23px rgba(0, 0, 0, 0.1) !important;
+    text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4),
+                    0px 8px 13px rgba(0, 0, 0, 0.1),
+                    0px 18px 23px rgba(0, 0, 0, 0.1);
 }
+
+// 3D Shadow
 .text-3d-shadow {
-    text-shadow: 0 1px 0 #ccc, 
-                    0 2px 0 #c9c9c9, 
-                    0 3px 0 #bbb, 
-                    0 4px 0 #b9b9b9, 
+    text-shadow: 0 1px 0 #ccc,
+                    0 2px 0 #c9c9c9,
+                    0 3px 0 #bbb,
+                    0 4px 0 #b9b9b9,
                     0 5px 0 #aaa,
-                    0 6px 1px rgba(0, 0, 0, 0.1), 
-                    0 0 5px rgba(0, 0, 0, 0.1), 
+                    0 6px 1px rgba(0, 0, 0, 0.1),
+                    0 0 5px rgba(0, 0, 0, 0.1),
                     0 1px 3px rgba(0, 0, 0, 0.3),
-                    0 3px 5px rgba(0, 0, 0, 0.2), 
-                    0 5px 10px rgba(0, 0, 0, 0.25), 
+                    0 3px 5px rgba(0, 0, 0, 0.2),
+                    0 5px 10px rgba(0, 0, 0, 0.25),
                     0 10px 10px rgba(0, 0, 0, 0.2),
-                    0 20px 20px rgba(0, 0, 0, 0.15) !important;
+                    0 20px 20px rgba(0, 0, 0, 0.15);
 }
+
+// Inset Shadow
 .text-inset-shadow {
     background-clip: text;
     color: transparent;
-    text-shadow: 0px 3px 3px rgba(255, 255, 255, 0.5) !important;
+    text-shadow: 0px 3px 3px rgba(255, 255, 255, 0.5);
 }
+
+// Glowing Shadow
 .text-glowing-shadow {
-    text-shadow: 0px 0px 6px rgba(255, 255, 255, 0.7) !important;
+    text-shadow: 0px 0px 6px rgba(255, 255, 255, 0.7);
 }
+
+// Super Hero Shadow
 .text-superhero-shadow {
-    text-shadow: -10px 10px 0px #00e6e6, 
-                    -20px 20px 0px #01cccc, 
-                    -30px 30px 0px #00bdbd !important;
+    text-shadow: -10px 10px 0px #00e6e6,
+                    -20px 20px 0px #01cccc,
+                    -30px 30px 0px #00bdbd;
 }
+
+// Light Source Shadow
 .text-lightsource-shadow {
-    text-shadow: 0px 15px 5px rgba(0, 0, 0, 0.1), 
-                    10px 20px 5px rgba(0, 0, 0, 0.05), 
-                    -10px 20px 5px rgba(0, 0, 0, 0.05) !important;
+    text-shadow: 0px 15px 5px rgba(0, 0, 0, 0.1),
+                    10px 20px 5px rgba(0, 0, 0, 0.05),
+                    -10px 20px 5px rgba(0, 0, 0, 0.05);
 }
+
+// Soft Shadow
 .text-soft-shadow {
     color: rgba(0, 0, 0, 0.6);
-    text-shadow: 2px 8px 6px rgba(0, 0, 0, 0.2), 
-                    0px -5px 35px rgba(255, 255, 255, 0.3) !important;
+    text-shadow: 2px 8px 6px rgba(0, 0, 0, 0.2),
+                    0px -5px 35px rgba(255, 255, 255, 0.3);
 }

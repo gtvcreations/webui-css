@@ -1,0 +1,100 @@
+// Variables
+
+// Color Variables
+// =============================================================================
+
+@import "colors/material";
+
+// Colors Themes
+// =============================================================================
+
+$primary-color: color("materialize-red", "lighten-2") !default;
+$primary-color-light: lighten($primary-color, 15%) !default;
+$primary-color-dark: darken($primary-color, 15%) !default;
+
+$secondary-color: color("teal", "lighten-1") !default;
+$success-color: color("green", "base") !default;
+$error-color: color("red", "base") !default;
+$link-color: color("light-blue", "darken-1") !default;
+
+// Fonts
+// =============================================================================
+
+// Font Stack
+$sans-serif-font-stack: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
+$monospace-font-stack: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
+
+// Font Family
+
+// Serif
+$serif: serif !default;
+$georgia: Georgia, serif !default;
+$palatino: "Palatino Linotype", "Book Antiqua", Palatino, serif !default;
+$times: "Times New Roman", Times, serif !default;
+
+// Sans-Serif
+$sansserif: sans-serif !default;
+$arial: Arial, Helvetica, sans-serif !default;
+$arialblack: "Arial Black", Gadget, sans-serif !default;
+$comicsans: "Comic Sans MS", cursive, sans-serif !default;
+$impact: Impact, Charcoal, sans-serif !default;
+$lucidasans: "Lucida Sans Unicode", "Lucida Grande", sans-serif !default;
+$tahoma: Tahoma, Geneva, sans-serif !default;
+$trebuchet: "Trebuchet MS", Helvetica, sans-serif !default;
+$verdana: Verdana, Geneva, sans-serif !default;
+
+// Monospace
+$monospace: monospace !default;
+$courier: "Courier New", Courier, monospace !default;
+$lucida: "Lucida Console", Monaco, monospace !default;
+
+$off-black: #333 !default;
+
+// Header Styles
+$h1-fontsize: 4.2rem !default;
+$h2-fontsize: 3.56rem !default;
+$h3-fontsize: 2.92rem !default;
+$h4-fontsize: 2.28rem !default;
+$h5-fontsize: 1.64rem !default;
+$h6-fontsize: 1.15rem !default;
+
+// Media Query Ranges
+// =============================================================================
+
+$small-screen-up: 601px !default;
+$medium-screen-up: 993px !default;
+$large-screen-up: 1201px !default;
+
+$small-screen: 600px !default;
+$medium-screen: 992px !default;
+$large-screen: 1200px !default;
+
+$medium-and-up: "(min-width : #{$small-screen-up})" !default;
+$large-and-up: "(min-width : #{$medium-screen-up})" !default;
+$extra-large-and-up: "(min-width : #{$large-screen-up})" !default;
+
+$small-and-down: "(max-width : #{$small-screen})" !default;
+$medium-and-down: "(max-width : #{$medium-screen})" !default;
+$medium-only: "(min-width : #{$small-screen-up}) and (max-width : #{$medium-screen})" !default;
+
+// Grid
+// =============================================================================
+
+$num-cols: 12 !default;
+$gutter-width: 1.5rem !default;
+$element-top-margin: $gutter-width/3 !default;
+$element-bottom-margin: ($gutter-width * 2)/3 !default;
+
+// Aspect Ratio
+// =============================================================================
+
+$aspect-ratios: (
+    (21 9),
+    (17 9),
+    (5 3),
+    (8 5),
+    (3 2),
+    (4 3),
+    (5 4),
+    (1 1)
+) !default;

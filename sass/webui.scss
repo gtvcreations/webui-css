@@ -1,32 +1,22 @@
-/*! webui.css v0.1.0 | MIT License | Copyright (c) 2019 Thiruvikraman Govindarajan | github.com/gtvcreations/webui.css */
+/*! webui.css v0.2.0 | MIT License | Copyright (c) 2019 Thiruvikraman Govindarajan | github.com/gtvcreations/webui.css */
 
-// Characterset
-@charset "UTF-8";
+@charset "UTF-8"; // Characterset
 
 // *** CONFIGURE ***
+@import "components/functions"; // Functions
+@import "components/variables"; // Variables
 
-// Box Sizing
-@import "components/boxsizing";
-// Normalize.CSS
-@import "components/normalize";
-// Global
-@import "components/global";
+// *** NEUTRALIZE ***
+@import "components/neutralize"; // Neutralize
 
 // *** COMPONENTS ***
-
-// Image
-@import "components/image";
-
+@import "components/media"; // Media - Image, Video, Embed, Iframe, Object
+@import "components/grid"; // Grid
 
 // *** HELPERS ***
-
-// Margin
-@import "components/margin";
-// Padding
-@import "components/padding";
-// Border
-@import "components/border";
-// Shadow
-@import "components/shadow";
-// Fonts
-@import "components/fonts"
+@import "components/color"; // Colors
+@import "components/fonts"; // Fonts
+@import "components/margin"; // Margin
+@import "components/padding"; // Padding
+@import "components/border"; // Border
+@import "components/shadow"; // Shadow

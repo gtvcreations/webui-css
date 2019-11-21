@@ -13,11 +13,9 @@
     // will be detected based on the file contents. Set to false to keep
     // the values you've explicitly set, above.
     "editor.detectIndentation": false,
-    
-    // Live Server Settings
-    "liveServer.settings.port": 5500,
-    "liveServer.settings.donotVerifyTags": true,
-    "liveServer.settings.donotShowInfoMsg": true,
+
+    // Work Area Zoom Level
+    "window.zoomLevel": 0,
 
     // SASS Compiler Settings
     "liveSassCompile.settings.formats":[
